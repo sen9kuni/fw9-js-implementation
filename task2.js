@@ -14,7 +14,6 @@ function membalikKata(teks) {
     for (let x = teks.length - 1; x >= 0; x--) {
         hasil = hasil + teks[x]
     }
-    console.log(hasil)
 
 
     let final = hasil.length
