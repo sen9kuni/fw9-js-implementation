@@ -18,6 +18,7 @@ function divdeAndSort(number) {
     let finalBoss = finalfinal.join('')
     console.log(digits)
     console.log(finalBoss)
+    console.log(final1)
 }
 
 
