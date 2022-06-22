@@ -29,7 +29,6 @@ function membalikKata(teks) {
     }
 
     let test = final1.length
-    console.log(test);
     for (let y = test; y <= final; y++) {
         if (hasil[y] == ' ') {
             for (let z = y - 1; z >= test; z--) {
