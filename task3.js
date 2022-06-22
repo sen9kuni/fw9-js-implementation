@@ -1,7 +1,6 @@
 // dengan built-in
 
 function divdeAndSort(number) {
-    // let numberString = number.toString()
     let digits = ("" + number).split(0);
 
     function numberToArray(number) {
@@ -23,8 +22,3 @@ function divdeAndSort(number) {
 
 
 divdeAndSort(881120113260321)
-
-// var n = 123456789;
-// var digits = ("" + n).split("");
-
-// console.log(digits);
