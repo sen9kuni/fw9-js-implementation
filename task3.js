@@ -1,23 +1,22 @@
 // dengan built-in
 
 function divdeAndSort(number) {
-    let digits = ("" + number).split(0);
+    let tempNum = ("" + number).split(0);
 
     function numberToArray(number) {
         let array = number.toString().split("")
         return array.map(x => parseInt(x))
     }
-    let final1 = numberToArray(digits[0])
-    let final2 = numberToArray(digits[1])
-    let final3 = numberToArray(digits[2])
-    let final11 = final1.sort((a, b) => a - b)
-    let final12 = final2.sort((a, b) => a - b)
-    let final13 = final3.sort((a, b) => a - b)
-    let finalfinal = final11.concat(final12, final13)
-    let finalBoss = finalfinal.join('')
-    console.log(digits)
-    console.log(finalBoss)
-    console.log(final1)
+    let numArray1 = numberToArray(tempNum[0])
+    let numArray2 = numberToArray(tempNum[1])
+    let numArray3 = numberToArray(tempNum[2])
+    let sortNum1 = numArray1.sort((a, b) => a - b)
+    let sortNum2 = numArray2.sort((a, b) => a - b)
+    let sortNum3 = numArray3.sort((a, b) => a - b)
+    let conNum = sortNum1.concat(sortNum2, sortNum3)
+    let joinNum = conNum.join('')
+    let final = parseInt(joinNum)
+    console.log(final)
 }
 
 
