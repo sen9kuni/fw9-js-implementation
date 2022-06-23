@@ -26,7 +26,6 @@ function checkPalindrome2(text) {
     // let reverseSplit = splitText.reverse()
     // let joinReverse = reverseSplit.join("")
 
-    // jika yang agak panjang if yang splitText diganti dengan joinReverse
     if (splitText === textTemp) {
         console.log('palindrom')
     } else {
