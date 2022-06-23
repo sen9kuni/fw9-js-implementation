@@ -18,7 +18,8 @@ checkPalindrome1('karak')
 // dengan built-in
 function checkPalindrome2(text) {
     // versi singkat
-    let splitText = text.split("").reverse().join("")
+    let textTemp = text.toLowerCase()
+    let splitText = textTemp.split("").reverse().join("")
 
     // ver agak panjang
     // let splitText = text.split("")
@@ -26,11 +27,11 @@ function checkPalindrome2(text) {
     // let joinReverse = reverseSplit.join("")
 
     // jika yang agak panjang if yang splitText diganti dengan joinReverse
-    if (splitText === text) {
+    if (splitText === textTemp) {
         console.log('palindrom')
     } else {
         console.log('not palindrom');
     }
 }
 
-checkPalindrome2('bukan')
+checkPalindrome2('MalAm')
